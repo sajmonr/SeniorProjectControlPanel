@@ -1,15 +1,20 @@
-<div class="container-fluid" style="height: 100vh;">
-  <div class="row">
+<div class="container-fluid d-flex flex-column h-100">
+  <div class="row bg-success">
     <div class="col">
       <app-topbar></app-topbar>
     </div>
   </div>
-  <div class="row" style="height: 90%;">
-    <div class="col-lg-3 col-sm-4 col h-100 p-0">
-      <app-navbar></app-navbar>
-    </div>
+  <div class="row bg-info flex-grow-1 d-flex justify-content-start">
+<!--    <div class="col-lg-3 col-sm-4 p-0">-->
+<!--      <app-navbar></app-navbar>-->
+<!--    </div>-->
     <div class="col">
-      <router-outlet></router-outlet>
+      <app-home></app-home>
+    </div>
+  </div>
+  <div class="row bg-danger">
+    <div class="col">
+      <app-bottombar></app-bottombar>
     </div>
   </div>
 </div>

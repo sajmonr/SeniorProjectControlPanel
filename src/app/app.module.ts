@@ -11,6 +11,7 @@ import { LightsComponent } from './home/lights/lights.component';
 import { AudioComponent } from './home/audio/audio.component';
 import { EndMeetingComponent } from './home/end-meeting/end-meeting.component';
 import { TopbarComponent } from './topbar/topbar.component';
+import { BottombarComponent } from './bottombar/bottombar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TopbarComponent } from './topbar/topbar.component';
     LightsComponent,
     AudioComponent,
     EndMeetingComponent,
-    TopbarComponent
+    TopbarComponent,
+    BottombarComponent
   ],
   imports: [
     BrowserModule,
