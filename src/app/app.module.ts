@@ -5,12 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { TvComponent } from './home/tv/tv.component';
+import { TemperatureComponent } from './home/temperature/temperature.component';
+import { LightsComponent } from './home/lights/lights.component';
+import { AudioComponent } from './home/audio/audio.component';
+import { EndMeetingComponent } from './home/end-meeting/end-meeting.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    TvComponent,
+    TemperatureComponent,
+    LightsComponent,
+    AudioComponent,
+    EndMeetingComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
