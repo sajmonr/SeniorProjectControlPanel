@@ -1,0 +1,6 @@
+<div class="button-wrapper" [ngClass]="{'border-on': switchable && active, 'border-off': switchable && !active}">
+  <button class="btn text-white w-100" style="height: 5rem;">
+    <span class="float-left">{{label}}</span>
+    <img [src]="imageSrc" alt="Image" class="float-right"/>
+  </button>
+</div>

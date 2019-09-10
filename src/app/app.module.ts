@@ -3,26 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { TvComponent } from './home/tv/tv.component';
-import { TemperatureComponent } from './home/temperature/temperature.component';
-import { LightsComponent } from './home/lights/lights.component';
-import { AudioComponent } from './home/audio/audio.component';
-import { EndMeetingComponent } from './home/end-meeting/end-meeting.component';
-import { TopbarComponent } from './topbar/topbar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    HomeComponent,
-    TvComponent,
-    TemperatureComponent,
-    LightsComponent,
-    AudioComponent,
-    EndMeetingComponent,
-    TopbarComponent
+    DashboardComponent,
+    ProgressBarComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
